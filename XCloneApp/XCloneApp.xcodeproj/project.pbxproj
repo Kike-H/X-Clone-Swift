@@ -7,24 +7,24 @@
 	objects = {
 
 /* Begin PBXFileReference section */
-		8ABFBE362CD6CEDD004C749B /* XCloneApp.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = XCloneApp.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		8AC03F472CD821E60007F6AE /* XCloneApp.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = XCloneApp.app; sourceTree = BUILT_PRODUCTS_DIR; };
 /* End PBXFileReference section */
 
 /* Begin PBXFileSystemSynchronizedBuildFileExceptionSet section */
-		8ABFBE482CD6CEE0004C749B /* Exceptions for "XCloneApp" folder in "XCloneApp" target */ = {
+		8AC03F592CD821E80007F6AE /* Exceptions for "XCloneApp" folder in "XCloneApp" target */ = {
 			isa = PBXFileSystemSynchronizedBuildFileExceptionSet;
 			membershipExceptions = (
 				Info.plist,
 			);
-			target = 8ABFBE352CD6CEDD004C749B /* XCloneApp */;
+			target = 8AC03F462CD821E60007F6AE /* XCloneApp */;
 		};
 /* End PBXFileSystemSynchronizedBuildFileExceptionSet section */
 
 /* Begin PBXFileSystemSynchronizedRootGroup section */
-		8ABFBE382CD6CEDD004C749B /* XCloneApp */ = {
+		8AC03F492CD821E60007F6AE /* XCloneApp */ = {
 			isa = PBXFileSystemSynchronizedRootGroup;
 			exceptions = (
-				8ABFBE482CD6CEE0004C749B /* Exceptions for "XCloneApp" folder in "XCloneApp" target */,
+				8AC03F592CD821E80007F6AE /* Exceptions for "XCloneApp" folder in "XCloneApp" target */,
 			);
 			path = XCloneApp;
 			sourceTree = "<group>";
@@ -32,7 +32,7 @@
 /* End PBXFileSystemSynchronizedRootGroup section */
 
 /* Begin PBXFrameworksBuildPhase section */
-		8ABFBE332CD6CEDD004C749B /* Frameworks */ = {
+		8AC03F442CD821E60007F6AE /* Frameworks */ = {
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
@@ -42,18 +42,18 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
-		8ABFBE2D2CD6CEDD004C749B = {
+		8AC03F3E2CD821E60007F6AE = {
 			isa = PBXGroup;
 			children = (
-				8ABFBE382CD6CEDD004C749B /* XCloneApp */,
-				8ABFBE372CD6CEDD004C749B /* Products */,
+				8AC03F492CD821E60007F6AE /* XCloneApp */,
+				8AC03F482CD821E60007F6AE /* Products */,
 			);
 			sourceTree = "<group>";
 		};
-		8ABFBE372CD6CEDD004C749B /* Products */ = {
+		8AC03F482CD821E60007F6AE /* Products */ = {
 			isa = PBXGroup;
 			children = (
-				8ABFBE362CD6CEDD004C749B /* XCloneApp.app */,
+				8AC03F472CD821E60007F6AE /* XCloneApp.app */,
 			);
 			name = Products;
 			sourceTree = "<group>";
@@ -61,64 +61,64 @@
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
-		8ABFBE352CD6CEDD004C749B /* XCloneApp */ = {
+		8AC03F462CD821E60007F6AE /* XCloneApp */ = {
 			isa = PBXNativeTarget;
-			buildConfigurationList = 8ABFBE492CD6CEE0004C749B /* Build configuration list for PBXNativeTarget "XCloneApp" */;
+			buildConfigurationList = 8AC03F5A2CD821E80007F6AE /* Build configuration list for PBXNativeTarget "XCloneApp" */;
 			buildPhases = (
-				8ABFBE322CD6CEDD004C749B /* Sources */,
-				8ABFBE332CD6CEDD004C749B /* Frameworks */,
-				8ABFBE342CD6CEDD004C749B /* Resources */,
+				8AC03F432CD821E60007F6AE /* Sources */,
+				8AC03F442CD821E60007F6AE /* Frameworks */,
+				8AC03F452CD821E60007F6AE /* Resources */,
 			);
 			buildRules = (
 			);
 			dependencies = (
 			);
 			fileSystemSynchronizedGroups = (
-				8ABFBE382CD6CEDD004C749B /* XCloneApp */,
+				8AC03F492CD821E60007F6AE /* XCloneApp */,
 			);
 			name = XCloneApp;
 			packageProductDependencies = (
 			);
 			productName = XCloneApp;
-			productReference = 8ABFBE362CD6CEDD004C749B /* XCloneApp.app */;
+			productReference = 8AC03F472CD821E60007F6AE /* XCloneApp.app */;
 			productType = "com.apple.product-type.application";
 		};
 /* End PBXNativeTarget section */
 
 /* Begin PBXProject section */
-		8ABFBE2E2CD6CEDD004C749B /* Project object */ = {
+		8AC03F3F2CD821E60007F6AE /* Project object */ = {
 			isa = PBXProject;
 			attributes = {
 				BuildIndependentTargetsInParallel = 1;
 				LastSwiftUpdateCheck = 1610;
 				LastUpgradeCheck = 1610;
 				TargetAttributes = {
-					8ABFBE352CD6CEDD004C749B = {
+					8AC03F462CD821E60007F6AE = {
 						CreatedOnToolsVersion = 16.1;
 					};
 				};
 			};
-			buildConfigurationList = 8ABFBE312CD6CEDD004C749B /* Build configuration list for PBXProject "XCloneApp" */;
+			buildConfigurationList = 8AC03F422CD821E60007F6AE /* Build configuration list for PBXProject "XCloneApp" */;
 			developmentRegion = en;
 			hasScannedForEncodings = 0;
 			knownRegions = (
 				en,
 				Base,
 			);
-			mainGroup = 8ABFBE2D2CD6CEDD004C749B;
+			mainGroup = 8AC03F3E2CD821E60007F6AE;
 			minimizedProjectReferenceProxies = 1;
 			preferredProjectObjectVersion = 77;
-			productRefGroup = 8ABFBE372CD6CEDD004C749B /* Products */;
+			productRefGroup = 8AC03F482CD821E60007F6AE /* Products */;
 			projectDirPath = "";
 			projectRoot = "";
 			targets = (
-				8ABFBE352CD6CEDD004C749B /* XCloneApp */,
+				8AC03F462CD821E60007F6AE /* XCloneApp */,
 			);
 		};
 /* End PBXProject section */
 
 /* Begin PBXResourcesBuildPhase section */
-		8ABFBE342CD6CEDD004C749B /* Resources */ = {
+		8AC03F452CD821E60007F6AE /* Resources */ = {
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
@@ -128,7 +128,7 @@
 /* End PBXResourcesBuildPhase section */
 
 /* Begin PBXSourcesBuildPhase section */
-		8ABFBE322CD6CEDD004C749B /* Sources */ = {
+		8AC03F432CD821E60007F6AE /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
@@ -138,31 +138,26 @@
 /* End PBXSourcesBuildPhase section */
 
 /* Begin XCBuildConfiguration section */
-		8ABFBE4A2CD6CEE0004C749B /* Debug */ = {
+		8AC03F5B2CD821E80007F6AE /* Debug */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
-				ASSETCATALOG_COMPILER_INCLUDE_ALL_APPICON_ASSETS = NO;
 				CODE_SIGN_STYLE = Automatic;
 				CURRENT_PROJECT_VERSION = 1;
-				DEVELOPMENT_TEAM = N96B8R8294;
 				GENERATE_INFOPLIST_FILE = YES;
 				INFOPLIST_FILE = XCloneApp/Info.plist;
 				INFOPLIST_KEY_CFBundleDisplayName = X;
 				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
-				INFOPLIST_KEY_UILaunchStoryboardName = LaunchScreenApp;
-				INFOPLIST_KEY_UIStatusBarHidden = YES;
-				INFOPLIST_KEY_UIStatusBarStyle = "";
-				INFOPLIST_KEY_UISupportedInterfaceOrientations = UIInterfaceOrientationPortrait;
-				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationLandscapeRight UIInterfaceOrientationPortrait";
+				INFOPLIST_KEY_UILaunchStoryboardName = LaunchScreen;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
 				IPHONEOS_DEPLOYMENT_TARGET = 15.6;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
 				);
 				MARKETING_VERSION = 1.0;
-				PRODUCT_BUNDLE_IDENTIFIER = com.lion.code.XCloneApp;
+				PRODUCT_BUNDLE_IDENTIFIER = org.XCloneApp;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SUPPORTED_PLATFORMS = "iphoneos iphonesimulator";
 				SUPPORTS_MACCATALYST = NO;
@@ -174,31 +169,26 @@
 			};
 			name = Debug;
 		};
-		8ABFBE4B2CD6CEE0004C749B /* Release */ = {
+		8AC03F5C2CD821E80007F6AE /* Release */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
-				ASSETCATALOG_COMPILER_INCLUDE_ALL_APPICON_ASSETS = NO;
 				CODE_SIGN_STYLE = Automatic;
 				CURRENT_PROJECT_VERSION = 1;
-				DEVELOPMENT_TEAM = N96B8R8294;
 				GENERATE_INFOPLIST_FILE = YES;
 				INFOPLIST_FILE = XCloneApp/Info.plist;
 				INFOPLIST_KEY_CFBundleDisplayName = X;
 				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
-				INFOPLIST_KEY_UILaunchStoryboardName = LaunchScreenApp;
-				INFOPLIST_KEY_UIStatusBarHidden = YES;
-				INFOPLIST_KEY_UIStatusBarStyle = "";
-				INFOPLIST_KEY_UISupportedInterfaceOrientations = UIInterfaceOrientationPortrait;
-				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationLandscapeRight UIInterfaceOrientationPortrait";
+				INFOPLIST_KEY_UILaunchStoryboardName = LaunchScreen;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
 				IPHONEOS_DEPLOYMENT_TARGET = 15.6;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
 				);
 				MARKETING_VERSION = 1.0;
-				PRODUCT_BUNDLE_IDENTIFIER = com.lion.code.XCloneApp;
+				PRODUCT_BUNDLE_IDENTIFIER = org.XCloneApp;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SUPPORTED_PLATFORMS = "iphoneos iphonesimulator";
 				SUPPORTS_MACCATALYST = NO;
@@ -210,7 +200,7 @@
 			};
 			name = Release;
 		};
-		8ABFBE4C2CD6CEE0004C749B /* Debug */ = {
+		8AC03F5D2CD821E80007F6AE /* Debug */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ALWAYS_SEARCH_USER_PATHS = NO;
@@ -273,7 +263,7 @@
 			};
 			name = Debug;
 		};
-		8ABFBE4D2CD6CEE0004C749B /* Release */ = {
+		8AC03F5E2CD821E80007F6AE /* Release */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ALWAYS_SEARCH_USER_PATHS = NO;
@@ -332,25 +322,25 @@
 /* End XCBuildConfiguration section */
 
 /* Begin XCConfigurationList section */
-		8ABFBE312CD6CEDD004C749B /* Build configuration list for PBXProject "XCloneApp" */ = {
+		8AC03F422CD821E60007F6AE /* Build configuration list for PBXProject "XCloneApp" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
-				8ABFBE4C2CD6CEE0004C749B /* Debug */,
-				8ABFBE4D2CD6CEE0004C749B /* Release */,
+				8AC03F5D2CD821E80007F6AE /* Debug */,
+				8AC03F5E2CD821E80007F6AE /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
 		};
-		8ABFBE492CD6CEE0004C749B /* Build configuration list for PBXNativeTarget "XCloneApp" */ = {
+		8AC03F5A2CD821E80007F6AE /* Build configuration list for PBXNativeTarget "XCloneApp" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
-				8ABFBE4A2CD6CEE0004C749B /* Debug */,
-				8ABFBE4B2CD6CEE0004C749B /* Release */,
+				8AC03F5B2CD821E80007F6AE /* Debug */,
+				8AC03F5C2CD821E80007F6AE /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
-	rootObject = 8ABFBE2E2CD6CEDD004C749B /* Project object */;
+	rootObject = 8AC03F3F2CD821E60007F6AE /* Project object */;
 }

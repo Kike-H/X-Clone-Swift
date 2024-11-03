@@ -2,7 +2,7 @@
 //  AppDelegate.swift
 //  XCloneApp
 //
-//  Created by Kike Hernandez D. on 02/11/24.
+//  Created by Kike Hernandez D. on 03/11/24.
 //
 
 import UIKit
@@ -14,7 +14,6 @@ class AppDelegate: UIResponder, UIApplicationDelegate {
 
     func application(_ application: UIApplication, didFinishLaunchingWithOptions launchOptions: [UIApplication.LaunchOptionsKey: Any]?) -> Bool {
         // Override point for customization after application launch.
-        Thread.sleep(forTimeInterval: 3)
         return true
     }
 
