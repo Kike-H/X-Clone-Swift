@@ -35,19 +35,19 @@
                                 <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="IUu-ux-AbH">
                                     <rect key="frame" x="0.0" y="150" width="393" height="128"/>
                                     <subviews>
-                                        <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="See what's happening in the world right now." textAlignment="justified" lineBreakMode="tailTruncation" numberOfLines="2" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="zda-VJ-PdZ">
+                                        <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="See what's happening in the world right now." textAlignment="justified" lineBreakMode="tailTruncation" numberOfLines="2" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="nde-Kl-YfD">
                                             <rect key="frame" x="10" y="0.0" width="373" height="128"/>
-                                            <fontDescription key="fontDescription" type="system" pointSize="17"/>
+                                            <fontDescription key="fontDescription" type="system" weight="semibold" pointSize="37"/>
                                             <nil key="textColor"/>
                                             <nil key="highlightedColor"/>
                                         </label>
                                     </subviews>
                                     <color key="backgroundColor" systemColor="systemBackgroundColor"/>
                                     <constraints>
-                                        <constraint firstAttribute="trailing" secondItem="zda-VJ-PdZ" secondAttribute="trailing" constant="10" id="1Jw-fu-uNp"/>
-                                        <constraint firstItem="zda-VJ-PdZ" firstAttribute="top" secondItem="IUu-ux-AbH" secondAttribute="top" id="N6n-Aa-Ric"/>
-                                        <constraint firstItem="zda-VJ-PdZ" firstAttribute="leading" secondItem="IUu-ux-AbH" secondAttribute="leading" constant="10" id="tWb-DL-8XO"/>
-                                        <constraint firstAttribute="bottom" secondItem="zda-VJ-PdZ" secondAttribute="bottom" id="wRO-hj-Av6"/>
+                                        <constraint firstAttribute="bottom" secondItem="nde-Kl-YfD" secondAttribute="bottom" id="4sf-Jl-A1G"/>
+                                        <constraint firstAttribute="trailing" secondItem="nde-Kl-YfD" secondAttribute="trailing" constant="10" id="KBO-hh-iUd"/>
+                                        <constraint firstItem="nde-Kl-YfD" firstAttribute="top" secondItem="IUu-ux-AbH" secondAttribute="top" id="XVy-dJ-cQI"/>
+                                        <constraint firstItem="nde-Kl-YfD" firstAttribute="leading" secondItem="IUu-ux-AbH" secondAttribute="leading" constant="10" id="pzh-lG-nfd"/>
                                     </constraints>
                                 </view>
                                 <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="g8h-Yf-k6f">
