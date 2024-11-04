@@ -15,6 +15,8 @@
                 <outlet property="buttonCreateAccount" destination="JT5-1S-2h3" id="7gb-v5-eBC"/>
                 <outlet property="buttonGoogle" destination="BJD-jm-t85" id="va5-tR-75a"/>
                 <outlet property="labelTitle" destination="nde-Kl-YfD" id="Jib-Aq-UT5"/>
+                <outlet property="logInLabel" destination="zE7-nW-xz3" id="fuj-oi-J2F"/>
+                <outlet property="termsAndConditionLabel" destination="Tsp-IC-pZX" id="MfI-9u-DeE"/>
                 <outlet property="view" destination="i5M-Pr-FkT" id="sfx-zR-JGt"/>
             </connections>
         </placeholder>
@@ -27,7 +29,7 @@
                     <rect key="frame" x="0.0" y="59" width="393" height="793"/>
                     <subviews>
                         <stackView opaque="NO" contentMode="scaleToFill" axis="vertical" translatesAutoresizingMaskIntoConstraints="NO" id="Med-yN-giG">
-                            <rect key="frame" x="0.0" y="0.0" width="393" height="653"/>
+                            <rect key="frame" x="0.0" y="0.0" width="393" height="909"/>
                             <subviews>
                                 <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="qdJ-nU-0je">
                                     <rect key="frame" x="0.0" y="0.0" width="393" height="140"/>
@@ -159,6 +161,106 @@
                                         <constraint firstAttribute="trailing" secondItem="zoY-e7-fQv" secondAttribute="trailing" constant="25" id="AgI-rz-Kr3"/>
                                         <constraint firstItem="zoY-e7-fQv" firstAttribute="top" secondItem="yVG-pG-glg" secondAttribute="top" constant="15" id="rPe-3E-1sl"/>
                                         <constraint firstItem="zoY-e7-fQv" firstAttribute="leading" secondItem="yVG-pG-glg" secondAttribute="leading" constant="25" id="s5y-Ur-FCc"/>
+                                    </constraints>
+                                </view>
+                                <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="PIm-w4-g9L">
+                                    <rect key="frame" x="0.0" y="653" width="393" height="128"/>
+                                    <subviews>
+                                        <stackView opaque="NO" contentMode="scaleToFill" axis="vertical" translatesAutoresizingMaskIntoConstraints="NO" id="l3j-Lq-hGB">
+                                            <rect key="frame" x="25" y="15" width="343" height="98"/>
+                                            <subviews>
+                                                <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" usesAttributedText="YES" lineBreakMode="tailTruncation" numberOfLines="0" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="Tsp-IC-pZX">
+                                                    <rect key="frame" x="0.0" y="0.0" width="343" height="98"/>
+                                                    <attributedString key="attributedText">
+                                                        <fragment content="By signing up, you agree to our ">
+                                                            <attributes>
+                                                                <color key="NSColor" white="0.75" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                                                                <font key="NSFont" size="14" name="HelveticaNeue"/>
+                                                            </attributes>
+                                                        </fragment>
+                                                        <fragment content="Terms">
+                                                            <attributes>
+                                                                <color key="NSColor" red="0.0" green="0.45882352939999999" blue="0.89019607840000003" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                                                                <font key="NSFont" size="14" name="HelveticaNeue"/>
+                                                            </attributes>
+                                                        </fragment>
+                                                        <fragment content=", ">
+                                                            <attributes>
+                                                                <color key="NSColor" white="0.75" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                                                                <font key="NSFont" size="14" name="HelveticaNeue"/>
+                                                            </attributes>
+                                                        </fragment>
+                                                        <fragment content="Privacy Policy">
+                                                            <attributes>
+                                                                <color key="NSColor" red="0.0" green="0.45882352939999999" blue="0.89019607840000003" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                                                                <font key="NSFont" size="14" name="HelveticaNeue"/>
+                                                            </attributes>
+                                                        </fragment>
+                                                        <fragment content=", and ">
+                                                            <attributes>
+                                                                <color key="NSColor" white="0.75" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                                                                <font key="NSFont" size="14" name="HelveticaNeue"/>
+                                                            </attributes>
+                                                        </fragment>
+                                                        <fragment content="Cookie Use">
+                                                            <attributes>
+                                                                <color key="NSColor" red="0.0" green="0.45882352939999999" blue="0.89019607840000003" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                                                                <font key="NSFont" size="14" name="HelveticaNeue"/>
+                                                            </attributes>
+                                                        </fragment>
+                                                        <fragment content=".">
+                                                            <attributes>
+                                                                <color key="NSColor" white="0.75" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                                                                <font key="NSFont" size="14" name="HelveticaNeue"/>
+                                                            </attributes>
+                                                        </fragment>
+                                                    </attributedString>
+                                                    <nil key="highlightedColor"/>
+                                                </label>
+                                            </subviews>
+                                        </stackView>
+                                    </subviews>
+                                    <color key="backgroundColor" systemColor="systemBackgroundColor"/>
+                                    <constraints>
+                                        <constraint firstAttribute="trailing" secondItem="l3j-Lq-hGB" secondAttribute="trailing" constant="25" id="B3V-hb-2Rw"/>
+                                        <constraint firstAttribute="bottom" secondItem="l3j-Lq-hGB" secondAttribute="bottom" constant="15" id="c7E-Le-RrQ"/>
+                                        <constraint firstItem="l3j-Lq-hGB" firstAttribute="leading" secondItem="PIm-w4-g9L" secondAttribute="leading" constant="25" id="gNE-I0-kFd"/>
+                                        <constraint firstItem="l3j-Lq-hGB" firstAttribute="top" secondItem="PIm-w4-g9L" secondAttribute="top" constant="15" id="vAZ-hR-esa"/>
+                                    </constraints>
+                                </view>
+                                <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="xg8-YQ-arI">
+                                    <rect key="frame" x="0.0" y="781" width="393" height="128"/>
+                                    <subviews>
+                                        <stackView opaque="NO" contentMode="scaleToFill" axis="vertical" translatesAutoresizingMaskIntoConstraints="NO" id="lez-KY-v4n">
+                                            <rect key="frame" x="25" y="15" width="343" height="98"/>
+                                            <subviews>
+                                                <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" usesAttributedText="YES" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="zE7-nW-xz3">
+                                                    <rect key="frame" x="0.0" y="0.0" width="343" height="98"/>
+                                                    <attributedString key="attributedText">
+                                                        <fragment content="Have an account already? ">
+                                                            <attributes>
+                                                                <color key="NSColor" white="0.75" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                                                                <font key="NSFont" size="14" name="HelveticaNeue"/>
+                                                            </attributes>
+                                                        </fragment>
+                                                        <fragment content="Log in">
+                                                            <attributes>
+                                                                <color key="NSColor" red="0.0" green="0.45882352939999999" blue="0.89019607840000003" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                                                                <font key="NSFont" size="14" name="HelveticaNeue"/>
+                                                            </attributes>
+                                                        </fragment>
+                                                    </attributedString>
+                                                    <nil key="highlightedColor"/>
+                                                </label>
+                                            </subviews>
+                                        </stackView>
+                                    </subviews>
+                                    <color key="backgroundColor" systemColor="systemBackgroundColor"/>
+                                    <constraints>
+                                        <constraint firstAttribute="bottom" secondItem="lez-KY-v4n" secondAttribute="bottom" constant="15" id="T2e-G5-0mf"/>
+                                        <constraint firstItem="lez-KY-v4n" firstAttribute="leading" secondItem="xg8-YQ-arI" secondAttribute="leading" constant="25" id="kt5-9f-8Xo"/>
+                                        <constraint firstAttribute="trailing" secondItem="lez-KY-v4n" secondAttribute="trailing" constant="25" id="nZr-i6-nam"/>
+                                        <constraint firstItem="lez-KY-v4n" firstAttribute="top" secondItem="xg8-YQ-arI" secondAttribute="top" constant="15" id="z6V-DG-XBX"/>
                                     </constraints>
                                 </view>
                             </subviews>
