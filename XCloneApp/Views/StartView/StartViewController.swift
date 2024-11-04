@@ -12,6 +12,7 @@ class StartViewController: UIViewController {
     @IBOutlet weak var labelTitle: UILabel!
     @IBOutlet weak var buttonGoogle: ButtonLogSN!
     @IBOutlet weak var buttonApple: ButtonLogSN!
+    @IBOutlet weak var buttonCreateAccount: CustomButton!
     
     override func viewDidLoad() {
         super.viewDidLoad()
@@ -30,6 +31,9 @@ class StartViewController: UIViewController {
         self.buttonApple.type = .apple
         self.buttonApple.delegate = self
         self.buttonApple.configureButton()
+        
+        self.buttonCreateAccount.configure(title: "Create account")
+        self.buttonCreateAccount.delegte = self
         
         
     }
@@ -52,5 +56,11 @@ class StartViewController: UIViewController {
 extension StartViewController: ButtonLogSNDelegate {
     func actionButton(type: ButtonLogSNType) {
         debugPrint("Hello: \(type.rawValue)")
+    }
+}
+
+extension StartViewController: CustomButtonDelegate {
+    func actionButton(_ button: CustomButton) {
+        debugPrint("Hello world")
     }
 }
